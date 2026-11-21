@@ -1,0 +1,59 @@
+id: linux-luminarium-fr
+name: "Linux Luminarium (français)"
+type: hidden
+import:
+  dojo: linux-luminarium
+award:
+  emoji: 🐧
+modules:
+- id: hello
+  import:
+    module: hello
+- id: paths
+  import:
+    module: paths
+- id: commands
+  import:
+    module: commands
+- id: man
+  import:
+    module: man
+- id: globbing
+  import:
+    module: globbing
+- id: piping
+  import:
+    module: piping
+- id: variables
+  import:
+    module: variables
+- id: data
+  import:
+    module: data
+- id: processes
+  import:
+    module: processes
+- id: users
+  import:
+    module: users
+- id: permissions
+  import:
+    module: permissions
+- id: chaining
+  import:
+    module: chaining
+- id: terminal-multiplexing
+  import:
+    module: terminal-multiplexing
+- id: path
+  import:
+    module: path
+- id: shenanigans
+  import:
+    module: shenanigans
+- id: destruction
+  import:
+    module: destruction
+- id: further-learning
+  import:
+    module: further-learning
