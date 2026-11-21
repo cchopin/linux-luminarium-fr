@@ -1,0 +1,61 @@
+name: "Manipuler des données (Data Manipulation)"
+resources:
+- name: "Autres programmes à découvrir (Further Programs to Learn)"
+  type: markdown
+  content: |
+    Il existe _d'innombrables_ programmes que les spécialistes du shell utilisent pour manipuler des données.
+    Chaque programme fait des choses précises, en suivant en général la [philosophie Unix](https://en.wikipedia.org/wiki/Unix_philosophy) : faire une seule chose, et la faire bien.
+    On peut enchaîner ces programmes pour obtenir des logiques composées vraiment puissantes.
+    Voici quelques exemples, à découvrir par soi-même une fois le Linux Luminarium terminé :
+
+    - [awk](https://linux.die.net/man/1/awk) pour le traitement complexe de texte
+    - [cut](https://linux.die.net/man/1/cut) pour extraire des parties de lignes
+    - [less](https://linux.die.net/man/1/less) pour un lecteur de fichiers interactif
+    - [more](https://linux.die.net/man/1/more) pour lire un fichier par parties
+    - [paste](https://linux.die.net/man/1/paste) pour combiner des fichiers
+    - [sed](https://linux.die.net/man/1/sed) pour la manipulation complexe de texte
+    - [sort](https://linux.die.net/man/1/sort) pour trier des données
+    - [tail](https://linux.die.net/man/1/tail) comme l'inverse de `head`
+    - [uniq](https://linux.die.net/man/1/uniq) pour filtrer les données uniques d'un flux
+- type: challenge
+  id: tr
+  name: "Traduire des caractères (Translating characters)"
+  import:
+    dojo: linux-luminarium
+    module: data
+    challenge: tr
+- type: challenge
+  id: tr-delete
+  name: "Supprimer des caractères (Deleting characters)"
+  import:
+    dojo: linux-luminarium
+    module: data
+    challenge: tr-delete
+- type: challenge
+  id: tr-delete-newlines
+  name: "Supprimer les retours à la ligne (Deleting newlines)"
+  import:
+    dojo: linux-luminarium
+    module: data
+    challenge: tr-delete-newlines
+- type: challenge
+  id: head
+  name: "Extraire les premières lignes avec head (Extracting the first lines with head)"
+  import:
+    dojo: linux-luminarium
+    module: data
+    challenge: head
+- type: challenge
+  id: cut
+  name: "Extraire des sections de texte (Extracting specific sections of text)"
+  import:
+    dojo: linux-luminarium
+    module: data
+    challenge: cut
+- type: challenge
+  id: sort
+  name: "Trier des données (Sorting data)"
+  import:
+    dojo: linux-luminarium
+    module: data
+    challenge: sort

@@ -1,0 +1,63 @@
+name: "Variables du shell (Shell Variables)"
+resources:
+- name: "Ressources"
+  type: markdown
+  content: |
+    - Le Linux Documentation Project propose une section sur [les variables du shell](https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-5.html).
+
+- type: challenge
+  id: echo
+  name: "Afficher des variables (Printing Variables)"
+  import:
+    dojo: linux-luminarium
+    module: variables
+    challenge: echo
+- type: challenge
+  id: setvar
+  name: "Définir des variables (Setting Variables)"
+  import:
+    dojo: linux-luminarium
+    module: variables
+    challenge: setvar
+- type: challenge
+  id: setvar-multi
+  name: "Variables à plusieurs mots (Multi-word Variables)"
+  import:
+    dojo: linux-luminarium
+    module: variables
+    challenge: setvar-multi
+- type: challenge
+  id: export
+  name: "Exporter des variables (Exporting Variables)"
+  import:
+    dojo: linux-luminarium
+    module: variables
+    challenge: export
+- type: challenge
+  id: env
+  name: "Afficher les variables exportées (Printing Exported Variables)"
+  import:
+    dojo: linux-luminarium
+    module: variables
+    challenge: env
+- type: challenge
+  id: command-substitution
+  name: "Stocker la sortie d'une commande (Storing Command Output)"
+  import:
+    dojo: linux-luminarium
+    module: variables
+    challenge: command-substitution
+- type: challenge
+  id: read
+  name: "Lire une saisie (Reading Input)"
+  import:
+    dojo: linux-luminarium
+    module: variables
+    challenge: read
+- type: challenge
+  id: readfile
+  name: "Lire des fichiers (Reading Files)"
+  import:
+    dojo: linux-luminarium
+    module: variables
+    challenge: readfile

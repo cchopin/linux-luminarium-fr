@@ -1,0 +1,73 @@
+name: "Processus et tâches (Processes and Jobs)"
+
+resources:
+- type: challenge
+  id: ps
+  name: "Lister les processus (Listing Processes)"
+  import:
+    dojo: linux-luminarium
+    module: processes
+    challenge: ps
+- type: challenge
+  id: kill
+  name: "Tuer des processus (Killing Processes)"
+  import:
+    dojo: linux-luminarium
+    module: processes
+    challenge: kill
+- type: challenge
+  id: int
+  name: "Interrompre des processus (Interrupting Processes)"
+  import:
+    dojo: linux-luminarium
+    module: processes
+    challenge: int
+- type: challenge
+  id: kill-decoy
+  name: "Tuer des processus gênants (Killing Misbehaving Processes)"
+  import:
+    dojo: linux-luminarium
+    module: processes
+    challenge: kill-decoy
+- type: challenge
+  id: suspend
+  name: "Suspendre des processus (Suspending Processes)"
+  import:
+    dojo: linux-luminarium
+    module: processes
+    challenge: suspend
+- type: challenge
+  id: resume
+  name: "Reprendre des processus (Resuming Processes)"
+  import:
+    dojo: linux-luminarium
+    module: processes
+    challenge: resume
+- type: challenge
+  id: background
+  name: "Passer des processus en arrière-plan (Backgrounding Processes)"
+  import:
+    dojo: linux-luminarium
+    module: processes
+    challenge: background
+- type: challenge
+  id: foreground
+  name: "Ramener des processus au premier plan (Foregrounding Processes)"
+  import:
+    dojo: linux-luminarium
+    module: processes
+    challenge: foreground
+- type: challenge
+  id: start-backgrounded
+  name: "Lancer des processus en arrière-plan (Starting Backgrounded Processes)"
+  import:
+    dojo: linux-luminarium
+    module: processes
+    challenge: start-backgrounded
+- type: challenge
+  id: exit-codes
+  name: "Codes de retour des processus (Process Exit Codes)"
+  import:
+    dojo: linux-luminarium
+    module: processes
+    challenge: exit-codes

@@ -1,0 +1,114 @@
+name: "Comprendre les commandes (Comprehending Commands)"
+resources:
+- type: header
+  content: "Défis"
+- id: cat
+  name: "cat : pas l'animal, mais la commande ! (cat: not the pet, but the command!)"
+  type: challenge
+  import:
+    dojo: linux-luminarium
+    module: commands
+    challenge: cat
+- id: cat-absolute
+  name: "Lire des chemins absolus avec cat (catting absolute paths)"
+  type: challenge
+  import:
+    dojo: linux-luminarium
+    module: commands
+    challenge: cat-absolute
+- id: cat-chase
+  name: "Encore de la lecture avec cat (more catting practice)"
+  type: challenge
+  import:
+    dojo: linux-luminarium
+    module: commands
+    challenge: cat-chase
+- id: grep
+  name: "Chercher une aiguille dans une botte de foin avec grep (grepping for a needle in a haystack)"
+  type: challenge
+  import:
+    dojo: linux-luminarium
+    module: commands
+    challenge: grep
+- id: diff
+  name: "Comparer des fichiers (comparing files)"
+  type: challenge
+  import:
+    dojo: linux-luminarium
+    module: commands
+    challenge: diff
+- id: ls
+  name: "Lister des fichiers (listing files)"
+  type: challenge
+  import:
+    dojo: linux-luminarium
+    module: commands
+    challenge: ls
+- id: touch
+  name: "Créer des fichiers avec touch (touching files)"
+  type: challenge
+  import:
+    dojo: linux-luminarium
+    module: commands
+    challenge: touch
+- id: rm
+  name: "Supprimer des fichiers (removing files)"
+  type: challenge
+  import:
+    dojo: linux-luminarium
+    module: commands
+    challenge: rm
+- id: mv
+  name: "Déplacer des fichiers (moving files)"
+  type: challenge
+  import:
+    dojo: linux-luminarium
+    module: commands
+    challenge: mv
+- id: cp
+  name: "Copier des fichiers (copying files)"
+  type: challenge
+  import:
+    dojo: linux-luminarium
+    module: commands
+    challenge: cp
+- id: ls-a
+  name: "Fichiers cachés (hidden files)"
+  type: challenge
+  import:
+    dojo: linux-luminarium
+    module: commands
+    challenge: ls-a
+- id: filesystem-quest
+  name: "Une quête épique dans le système de fichiers (An Epic Filesystem Quest)"
+  type: challenge
+  import:
+    dojo: linux-luminarium
+    module: commands
+    challenge: filesystem-quest
+- id: mkdir
+  name: "Créer des répertoires (making directories)"
+  type: challenge
+  import:
+    dojo: linux-luminarium
+    module: commands
+    challenge: mkdir
+- id: find
+  name: "Trouver des fichiers (finding files)"
+  type: challenge
+  import:
+    dojo: linux-luminarium
+    module: commands
+    challenge: find
+- name: "Liens symboliques (Symbolic Links), en anglais"
+  type: lecture
+  video: m55AtwjBXpE
+  playlist: PL-ymxv0nOtqqRAz1x90vxNbhmSkeYxHVC
+  slides: 17OWCQsGTRsuCrB50njXbTXaEourHgdzVrN0cUshfDXI
+- id: ln-s
+  name: "Créer des liens (linking files)"
+  type: challenge
+  import:
+    dojo: linux-luminarium
+    module: commands
+    challenge: ln-s

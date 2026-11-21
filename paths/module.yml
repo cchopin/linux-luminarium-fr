@@ -1,0 +1,65 @@
+name: "Réfléchir aux chemins (Pondering Paths)"
+resources:
+- name: "Le système de fichiers (The File System), en anglais"
+  type: lecture
+  video: b67Jq6IZ3U8
+  playlist: PL-ymxv0nOtqqRAz1x90vxNbhmSkeYxHVC
+  slides: 1rZYXk2waekELrSYIiBTk0z0XXx8e8ovvARrH0n6XeO8
+- type: header
+  content: "Défis"
+- type: challenge
+  id: root
+  name: "La racine (The Root)"
+  import:
+    dojo: linux-luminarium
+    module: paths
+    challenge: root
+- type: challenge
+  id: absolute
+  name: "Programme et chemins absolus (Program and absolute paths)"
+  import:
+    dojo: linux-luminarium
+    module: paths
+    challenge: absolute
+- type: challenge
+  id: absolute-cwd
+  name: "Se positionner (Position thy self)"
+  import:
+    dojo: linux-luminarium
+    module: paths
+    challenge: absolute-cwd
+- type: challenge
+  id: absolute-cwd-2
+  name: "Se positionner ailleurs (Position elsewhere)"
+  import:
+    dojo: linux-luminarium
+    module: paths
+    challenge: absolute-cwd-2
+- type: challenge
+  id: relative-naked
+  name: "Chemins relatifs implicites, depuis / (implicit relative paths, from /)"
+  import:
+    dojo: linux-luminarium
+    module: paths
+    challenge: relative-naked
+- type: challenge
+  id: relative-dot
+  name: "Chemins relatifs explicites, depuis / (explicit relative paths, from /)"
+  import:
+    dojo: linux-luminarium
+    module: paths
+    challenge: relative-dot
+- type: challenge
+  id: relative-dot-local
+  name: "Chemin relatif implicite (implicit relative path)"
+  import:
+    dojo: linux-luminarium
+    module: paths
+    challenge: relative-dot-local
+- type: challenge
+  id: home
+  name: "Home, sweet home (home sweet home)"
+  import:
+    dojo: linux-luminarium
+    module: paths
+    challenge: home

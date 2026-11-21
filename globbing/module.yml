@@ -1,0 +1,79 @@
+name: "Globbing de fichiers (File Globbing)"
+resources:
+- type: markdown
+  name: "Pour aller plus loin (Further Reading)"
+  content: |
+    - La [section sur les expansions du shell](https://www.gnu.org/software/bash/manual/html_node/Shell-Expansions.html) du manuel de référence de Bash peut être utile (en anglais).
+
+- type: header
+  content: "Défis"
+- type: challenge
+  id: asterisk
+  name: "Correspondances avec * (Matching with *)"
+  import:
+    dojo: linux-luminarium
+    module: globbing
+    challenge: asterisk
+- type: challenge
+  id: question
+  name: "Correspondances avec ? (Matching with ?)"
+  import:
+    dojo: linux-luminarium
+    module: globbing
+    challenge: question
+- type: challenge
+  id: bracket
+  name: "Correspondances avec [] (Matching with [])"
+  import:
+    dojo: linux-luminarium
+    module: globbing
+    challenge: bracket
+- type: challenge
+  id: bracket-absolute
+  name: "Chemins avec [] (Matching paths with [])"
+  import:
+    dojo: linux-luminarium
+    module: globbing
+    challenge: bracket-absolute
+- type: challenge
+  id: multiglob
+  name: "Plusieurs globs (Multiple globs)"
+  import:
+    dojo: linux-luminarium
+    module: globbing
+    challenge: multiglob
+- type: challenge
+  id: mixing
+  name: "Mélanger les globs (Mixing globs)"
+  import:
+    dojo: linux-luminarium
+    module: globbing
+    challenge: mixing
+- type: challenge
+  id: unmatching
+  name: "Exclure des fichiers (Exclusionary globbing)"
+  import:
+    dojo: linux-luminarium
+    module: globbing
+    challenge: unmatching
+- type: challenge
+  id: tab-completion
+  name: "Complétion avec la touche Tab (Tab completion)"
+  import:
+    dojo: linux-luminarium
+    module: globbing
+    challenge: tab-completion
+- type: challenge
+  id: tab-completion-options
+  name: "Plusieurs options de complétion (Multiple options for tab completion)"
+  import:
+    dojo: linux-luminarium
+    module: globbing
+    challenge: tab-completion-options
+- type: challenge
+  id: tab-completion-command
+  name: "Complétion des commandes (Tab completion on commands)"
+  import:
+    dojo: linux-luminarium
+    module: globbing
+    challenge: tab-completion-command

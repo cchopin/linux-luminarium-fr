@@ -1,0 +1,58 @@
+name: "Digérer la documentation (Digesting Documentation)"
+resources:
+- name: "Ressources (Resources)"
+  type: markdown
+  content: |
+    - [Dépôt en ligne des pages de manuel](https://man7.org/linux/man-pages/) (en anglais).
+
+- type: header
+  content: "Défis"
+- type: challenge
+  id: challenge-arg
+  name: "Apprendre à partir de la documentation (Learning From Documentation)"
+  import:
+    dojo: linux-luminarium
+    module: man
+    challenge: challenge-arg
+- type: challenge
+  id: challenge-arg-arg
+  name: "Apprendre un usage complexe (Learning Complex Usage)"
+  import:
+    dojo: linux-luminarium
+    module: man
+    challenge: challenge-arg-arg
+- type: challenge
+  id: man
+  name: "Lire les manuels (Reading Manuals)"
+  import:
+    dojo: linux-luminarium
+    module: man
+    challenge: man
+- type: challenge
+  id: man-search
+  name: "Chercher dans les manuels (Searching Manuals)"
+  import:
+    dojo: linux-luminarium
+    module: man
+    challenge: man-search
+- type: challenge
+  id: man-search-man
+  name: "Chercher un manuel (Searching For Manuals)"
+  import:
+    dojo: linux-luminarium
+    module: man
+    challenge: man-search-man
+- type: challenge
+  id: help
+  name: "Programmes qui aident (Helpful Programs)"
+  import:
+    dojo: linux-luminarium
+    module: man
+    challenge: help
+- type: challenge
+  id: builtins
+  name: "Aide sur les commandes internes (Help for Builtins)"
+  import:
+    dojo: linux-luminarium
+    module: man
+    challenge: builtins

@@ -1,0 +1,41 @@
+name: "Réflexion sur PATH (Pondering PATH)"
+resources:
+- name: "Ressources"
+  type: markdown
+  content: |
+    - [Qu'est-ce que PATH ?](https://www.linfo.org/path_env_var.html)
+- type: challenge
+  id: path
+  name: "La variable PATH (The PATH Variable)"
+  import:
+    dojo: linux-luminarium
+    module: path
+    challenge: path
+- type: challenge
+  id: path-win
+  name: "Définir PATH (Setting PATH)"
+  import:
+    dojo: linux-luminarium
+    module: path
+    challenge: path-win
+- type: challenge
+  id: which
+  name: "Trouver les commandes (Finding Commands)"
+  import:
+    dojo: linux-luminarium
+    module: path
+    challenge: which
+- type: challenge
+  id: path-win-yours
+  name: "Ajouter des commandes (Adding Commands)"
+  import:
+    dojo: linux-luminarium
+    module: path
+    challenge: path-win-yours
+- type: challenge
+  id: command-hijack
+  name: "Détourner des commandes (Hijacking Commands)"
+  import:
+    dojo: linux-luminarium
+    module: path
+    challenge: command-hijack

@@ -1,0 +1,86 @@
+name: "Enchaîner les commandes (Chaining Commands)"
+resources:
+- type: challenge
+  id: semicolon
+  name: "Enchaîner avec des points-virgules (Chaining with Semicolons)"
+  import:
+    dojo: linux-luminarium
+    module: chaining
+    challenge: semicolon
+- type: challenge
+  id: and
+  name: "S'appuyer sur le succès (Building on Success)"
+  import:
+    dojo: linux-luminarium
+    module: chaining
+    challenge: and
+- type: challenge
+  id: or
+  name: "Gérer l'échec (Handling Failure)"
+  import:
+    dojo: linux-luminarium
+    module: chaining
+    challenge: or
+- type: challenge
+  id: script
+  name: "Votre premier script shell (Your First Shell Script)"
+  import:
+    dojo: linux-luminarium
+    module: chaining
+    challenge: script
+- type: challenge
+  id: script-pipe
+  name: "Rediriger la sortie d'un script (Redirecting Script Output)"
+  import:
+    dojo: linux-luminarium
+    module: chaining
+    challenge: script-pipe
+- type: challenge
+  id: execution
+  name: "Scripts shell exécutables (Executable Shell Scripts)"
+  import:
+    dojo: linux-luminarium
+    module: chaining
+    challenge: execution
+- type: challenge
+  id: shebang
+  name: "Comprendre les shebangs (Understanding Shebangs)"
+  import:
+    dojo: linux-luminarium
+    module: chaining
+    challenge: shebang
+- type: challenge
+  id: script-args
+  name: "Écrire des scripts avec des arguments (Scripting with Arguments)"
+  import:
+    dojo: linux-luminarium
+    module: chaining
+    challenge: script-args
+- type: challenge
+  id: script-if
+  name: "Écrire des scripts avec des conditions (Scripting with Conditionals)"
+  import:
+    dojo: linux-luminarium
+    module: chaining
+    challenge: script-if
+- type: challenge
+  id: script-else
+  name: "Écrire des scripts avec un cas par défaut (Scripting with Default Cases)"
+  import:
+    dojo: linux-luminarium
+    module: chaining
+    challenge: script-else
+- type: challenge
+  id: script-elif
+  name: "Écrire des scripts avec plusieurs conditions (Scripting with Multiple Conditions)"
+  import:
+    dojo: linux-luminarium
+    module: chaining
+    challenge: script-elif
+- type: challenge
+  id: reading-scripts
+  name: "Lire des scripts shell (Reading Shell Scripts)"
+  import:
+    dojo: linux-luminarium
+    module: chaining
+    challenge: reading-scripts

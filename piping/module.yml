@@ -1,0 +1,113 @@
+name: "Pratiquer les tubes et les redirections (Practicing Piping)"
+resources:
+- name: "Ressources"
+  type: markdown
+  content: |
+    - Un [traité sur la redirection d'entrée-sortie dans les shells Linux](https://web.archive.org/web/20220629044814/http://bencane.com:80/2012/04/16/unix-shell-the-art-of-io-redirection/), utile pour ce module.
+    - Un [guide visuel très clair sur la redirection d'entrée-sortie](http://www.rozmichelle.com/pipes-forks-dups/) sous Linux.
+
+- type: challenge
+  id: echo
+  name: "Rediriger la sortie (Redirecting output)"
+  import:
+    dojo: linux-luminarium
+    module: piping
+    challenge: echo
+- type: challenge
+  id: stdout-myflag
+  name: "Rediriger encore la sortie (Redirecting more output)"
+  import:
+    dojo: linux-luminarium
+    module: piping
+    challenge: stdout-myflag
+- type: challenge
+  id: append
+  name: "Ajouter à la fin d'un fichier (Appending output)"
+  import:
+    dojo: linux-luminarium
+    module: piping
+    challenge: append
+- type: challenge
+  id: stderr-myflag
+  name: "Rediriger les erreurs (Redirecting errors)"
+  import:
+    dojo: linux-luminarium
+    module: piping
+    challenge: stderr-myflag
+- type: challenge
+  id: stdin
+  name: "Rediriger l'entrée (Redirecting input)"
+  import:
+    dojo: linux-luminarium
+    module: piping
+    challenge: stdin
+- type: challenge
+  id: redir-then-grep
+  name: "Chercher dans un résultat enregistré (Grepping stored results)"
+  import:
+    dojo: linux-luminarium
+    module: piping
+    challenge: redir-then-grep
+- type: challenge
+  id: pipe-grep
+  name: "Chercher dans une sortie en direct (Grepping live output)"
+  import:
+    dojo: linux-luminarium
+    module: piping
+    challenge: pipe-grep
+- type: challenge
+  id: stderr-grep
+  name: "Chercher dans les erreurs (Grepping errors)"
+  import:
+    dojo: linux-luminarium
+    module: piping
+    challenge: stderr-grep
+- type: challenge
+  id: grep-invert
+  name: "Filtrer avec grep -v (Filtering with grep -v)"
+  import:
+    dojo: linux-luminarium
+    module: piping
+    challenge: grep-invert
+- type: challenge
+  id: sed
+  name: "Filtrer avec sed (Filtering with sed)"
+  import:
+    dojo: linux-luminarium
+    module: piping
+    challenge: sed
+- type: challenge
+  id: tee
+  name: "Dupliquer des données avec tee (Duplicating piped data with tee)"
+  import:
+    dojo: linux-luminarium
+    module: piping
+    challenge: tee
+- type: challenge
+  id: procsub-read
+  name: "Substitution de processus en entrée (Process substitution for input)"
+  import:
+    dojo: linux-luminarium
+    module: piping
+    challenge: procsub-read
+- type: challenge
+  id: procsub-write
+  name: "Écrire vers plusieurs programmes (Writing to multiple programs)"
+  import:
+    dojo: linux-luminarium
+    module: piping
+    challenge: procsub-write
+- type: challenge
+  id: dualpiper
+  name: "Séparer l'erreur standard et la sortie standard (Split-piping stderr and stdout)"
+  import:
+    dojo: linux-luminarium
+    module: piping
+    challenge: dualpiper
+- type: challenge
+  id: fifo
+  name: "Tubes nommés (Named pipes)"
+  import:
+    dojo: linux-luminarium
+    module: piping
+    challenge: fifo

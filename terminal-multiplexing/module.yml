@@ -1,0 +1,44 @@
+name: "Multiplexage de terminaux (Terminal Multiplexing)"
+resources:
+- type: challenge
+  id: launch-screen
+  name: "Lancer screen (Launching Screen)"
+  import:
+    dojo: linux-luminarium
+    module: terminal-multiplexing
+    challenge: launch-screen
+- type: challenge
+  id: detach-attach
+  name: "Détacher et rattacher (Detaching and Attaching)"
+  import:
+    dojo: linux-luminarium
+    module: terminal-multiplexing
+    challenge: detach-attach
+- type: challenge
+  id: find-session
+  name: "Trouver une session (Finding Sessions)"
+  import:
+    dojo: linux-luminarium
+    module: terminal-multiplexing
+    challenge: find-session
+- type: challenge
+  id: switch-windows
+  name: "Changer de fenêtre (Switching Windows)"
+  import:
+    dojo: linux-luminarium
+    module: terminal-multiplexing
+    challenge: switch-windows
+- type: challenge
+  id: detach-attach-tmux
+  name: "Détacher et rattacher avec tmux (Detaching and Attaching (tmux))"
+  import:
+    dojo: linux-luminarium
+    module: terminal-multiplexing
+    challenge: detach-attach-tmux
+- type: challenge
+  id: switch-windows-tmux
+  name: "Changer de fenêtre avec tmux (Switching Windows (tmux))"
+  import:
+    dojo: linux-luminarium
+    module: terminal-multiplexing
+    challenge: switch-windows-tmux

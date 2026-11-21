@@ -1,0 +1,30 @@
+name: "Démêler les utilisateurs (Untangling Users)"
+resources:
+- type: challenge
+  id: su
+  name: "Devenir root avec su (Becoming root with su)"
+  import:
+    dojo: linux-luminarium
+    module: users
+    challenge: su
+- type: challenge
+  id: su-other
+  name: "Autres utilisateurs avec su (Other users with su)"
+  import:
+    dojo: linux-luminarium
+    module: users
+    challenge: su-other
+- type: challenge
+  id: su-crack
+  name: "Casser des mots de passe (Cracking passwords)"
+  import:
+    dojo: linux-luminarium
+    module: users
+    challenge: su-crack
+- type: challenge
+  id: sudo
+  name: "Utiliser sudo (Using sudo)"
+  import:
+    dojo: linux-luminarium
+    module: users
+    challenge: sudo

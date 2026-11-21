@@ -1,0 +1,44 @@
+name: "Bêtises en tous genres (Silly Shenanigans)"
+resources:
+- type: challenge
+  id: bashrc-trojan
+  name: "Porte dérobée dans .bashrc (Bashrc Backdoor)"
+  import:
+    dojo: linux-luminarium
+    module: shenanigans
+    challenge: bashrc-trojan
+- type: challenge
+  id: flag-checker-hijack
+  name: "Espionner la saisie (Sniffing Input)"
+  import:
+    dojo: linux-luminarium
+    module: shenanigans
+    challenge: flag-checker-hijack
+- type: challenge
+  id: writable-home-dir
+  name: "Répertoires trop partagés (Overshared Directories)"
+  import:
+    dojo: linux-luminarium
+    module: shenanigans
+    challenge: writable-home-dir
+- type: challenge
+  id: writable-tmp-dir
+  name: "Liens astucieux (Tricky Linking)"
+  import:
+    dojo: linux-luminarium
+    module: shenanigans
+    challenge: writable-tmp-dir
+- type: challenge
+  id: process-sniffing
+  name: "Espionner les arguments des processus (Sniffing Process Arguments)"
+  import:
+    dojo: linux-luminarium
+    module: shenanigans
+    challenge: process-sniffing
+- type: challenge
+  id: config-snooping
+  name: "Fouiller dans les configurations (Snooping on Configurations)"
+  import:
+    dojo: linux-luminarium
+    module: shenanigans
+    challenge: config-snooping

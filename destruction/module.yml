@@ -1,0 +1,38 @@
+name: "Destruction audacieuse (Daring Destruction)"
+resources:
+- type: challenge
+  id: forkbomb
+  name: "La bombe fork (The Fork Bomb)"
+  privileged: true
+  import:
+    dojo: linux-luminarium
+    module: destruction
+    challenge: forkbomb
+- type: challenge
+  id: disk-doomsday
+  name: "Apocalypse de l'espace disque (Disk-Space Doomsday)"
+  import:
+    dojo: linux-luminarium
+    module: destruction
+    challenge: disk-doomsday
+- type: challenge
+  id: rm-rf-root
+  name: "rm -rf / (rm -rf /)"
+  import:
+    dojo: linux-luminarium
+    module: destruction
+    challenge: rm-rf-root
+- type: challenge
+  id: rm-rf-root-read
+  name: "Après rm -rf / (Life after rm -rf /)"
+  import:
+    dojo: linux-luminarium
+    module: destruction
+    challenge: rm-rf-root-read
+- type: challenge
+  id: rm-rf-root-search
+  name: "Trouver du sens après rm -rf / (Finding meaning after rm -rf /)"
+  import:
+    dojo: linux-luminarium
+    module: destruction
+    challenge: rm-rf-root-search

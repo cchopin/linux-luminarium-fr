@@ -1,0 +1,83 @@
+name: "Percevoir les permissions (Perceiving Permissions)"
+resources:
+- name: "Ressources"
+  type: markdown
+  content: |
+    - [Calculateur chmod](https://nettools.club/chmod_calc)
+
+- name: "Contrôle d'accès : introduction (Access Control: Introduction), en anglais"
+  type: lecture
+  video: mdWa1SHkxmM
+  playlist: PL-ymxv0nOtqotjW-uK_YSj9pm5tTKf87J
+  slides: 1tBn2d4d7-kpaoAoEipts8ZqKhQsIsSvF
+- name: "Contrôle d'accès : modéliser le contrôle d'accès (Access Control: Modeling Access Control), en anglais"
+  type: lecture
+  video: Nq93Xz6yn3o
+  playlist: PL-ymxv0nOtqotjW-uK_YSj9pm5tTKf87J
+  slides: 1xGkSmpJBt4IMg2aW2vSoY5b0qHqF2t4h
+- name: "Contrôle d'accès : mettre en œuvre le contrôle d'accès (Access Control: Implementing Access Control), en anglais"
+  type: lecture
+  video: OGhKjwJ7PKE
+  playlist: PL-ymxv0nOtqotjW-uK_YSj9pm5tTKf87J
+  slides: 1D9C4dtWdsub504eGyzr0JEpOmwH4X8UJ
+- name: "Contrôle d'accès : contrôle d'accès POSIX (Access Control: POSIX Access Control), en anglais"
+  type: lecture
+  video: OG5yXzn-cVs
+  playlist: PL-ymxv0nOtqotjW-uK_YSj9pm5tTKf87J
+  slides: 172XbD83EW8kZIHHZIbXVOmbDMYRm-VN1
+- type: challenge
+  id: chown
+  name: "Changer le propriétaire d'un fichier (Changing File Ownership)"
+  import:
+    dojo: linux-luminarium
+    module: permissions
+    challenge: chown
+- type: challenge
+  id: chgrp
+  name: "Groupes et fichiers (Groups and Files)"
+  import:
+    dojo: linux-luminarium
+    module: permissions
+    challenge: chgrp
+- type: challenge
+  id: chgrp-random
+  name: "Jouer avec les noms de groupes (Fun With Groups Names)"
+  import:
+    dojo: linux-luminarium
+    module: permissions
+    challenge: chgrp-random
+- type: challenge
+  id: chmod-flag
+  name: "Changer les permissions (Changing Permissions)"
+  import:
+    dojo: linux-luminarium
+    module: permissions
+    challenge: chmod-flag
+- type: challenge
+  id: execute
+  name: "Fichiers exécutables (Executable Files)"
+  import:
+    dojo: linux-luminarium
+    module: permissions
+    challenge: execute
+- type: challenge
+  id: chmod
+  name: "Pratiquer chmod (Permission Tweaking Practice)"
+  import:
+    dojo: linux-luminarium
+    module: permissions
+    challenge: chmod
+- type: challenge
+  id: chmod-absolute
+  name: "Pratiquer la définition des permissions (Permissions Setting Practice)"
+  import:
+    dojo: linux-luminarium
+    module: permissions
+    challenge: chmod-absolute
+- type: challenge
+  id: setuid
+  name: "Le bit SUID (The SUID Bit)"
+  import:
+    dojo: linux-luminarium
+    module: permissions
+    challenge: setuid
