@@ -1,6 +1,6 @@
 id: linux-luminarium-fr
 name: "Linux Luminarium (français)"
-type: hidden
+type: public
 import:
   dojo: linux-luminarium
 award:
